@@ -1,0 +1,5 @@
+C:\Users\luciano\Documents\SharpDevelop Projects\Ejercicio 15\Ejercicio 15\bin\Debug\Ejercicio 15.exe
+C:\Users\luciano\Documents\SharpDevelop Projects\Ejercicio 15\Ejercicio 15\bin\Debug\Ejercicio 15.pdb
+C:\Users\luciano\Documents\SharpDevelop Projects\Ejercicio 15\Ejercicio 15\obj\Debug\Ejercicio 15.csprojResolveAssemblyReference.cache
+C:\Users\luciano\Documents\SharpDevelop Projects\Ejercicio 15\Ejercicio 15\obj\Debug\Ejercicio 15.exe
+C:\Users\luciano\Documents\SharpDevelop Projects\Ejercicio 15\Ejercicio 15\obj\Debug\Ejercicio 15.pdb
