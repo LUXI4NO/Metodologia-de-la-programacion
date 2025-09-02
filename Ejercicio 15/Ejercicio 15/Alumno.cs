@@ -1,4 +1,4 @@
-﻿namespace Metodologia
+namespace Metodologia
 {
     public class Alumno : Persona
     {
@@ -21,12 +21,13 @@
             return promedio;
         }
 
+        // Comparar por legajo usando casting tradicional
         public override bool SosIgual(IComparable otro)
         {
-            if (otro is Alumno)
+            Alumno a = otro as Alumno;
+            if (a != null)
             {
-                Alumno a = (Alumno)otro;
-                return this.getDNI() == a.getDNI();
+                return this.legajo == a.legajo;
             }
             return false;
         }
@@ -35,7 +36,9 @@
         {
             Alumno a = otro as Alumno;
             if (a != null)
-                return this.getDNI() < a.getDNI();
+            {
+                return this.legajo < a.legajo;
+            }
             return false;
         }
 
@@ -43,7 +46,9 @@
         {
             Alumno a = otro as Alumno;
             if (a != null)
-                return this.getDNI() > a.getDNI();
+            {
+                return this.legajo > a.legajo;
+            }
             return false;
         }
 
