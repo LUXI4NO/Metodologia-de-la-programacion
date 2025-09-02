@@ -21,7 +21,6 @@ namespace Metodologia
             return promedio;
         }
 
-        // Comparar por legajo usando casting tradicional
         public override bool SosIgual(IComparable otro)
         {
             Alumno a = otro as Alumno;
@@ -58,3 +57,4 @@ namespace Metodologia
         }
     }
 }
+
